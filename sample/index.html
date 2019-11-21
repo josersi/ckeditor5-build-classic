@@ -33,6 +33,7 @@
 			window.editor = editor;
 		} )
 		.catch( err => {
+			console.table(err);
 			console.error( err.stack );
 		} );
 </script>
