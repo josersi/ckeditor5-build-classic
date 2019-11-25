@@ -12,7 +12,6 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
@@ -42,7 +41,6 @@ ClassicEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	BlockQuote,
-	CKFinder,
 	EasyImage,
 	Font,
 	Heading,
@@ -84,7 +82,7 @@ ClassicEditor.defaultConfig = {
 			'MathType', 
 			'ChemType',
 			'|',
-			'ckfinder',
+			'imageUpload',
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
