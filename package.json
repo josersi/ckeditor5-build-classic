@@ -47,6 +47,7 @@
     "@ckeditor/ckeditor5-paste-from-office": "^15.0.0",
     "@ckeditor/ckeditor5-table": "^15.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
+    "@ckeditor/ckeditor5-upload": "^15.0.0",
     "@wiris/mathtype-ckeditor5": "^7.17.1",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
